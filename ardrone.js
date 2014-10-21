@@ -9,6 +9,6 @@ var client = drone.createClient();
 
 client.takeoff();
 
-client.after(3000, function () {
+client.after(10000, function () {
 	this.land();
 });
